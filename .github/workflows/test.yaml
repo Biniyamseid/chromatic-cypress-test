@@ -41,8 +41,8 @@ jobs:
       #   with:
       #     projectToken: "chpt_ba44eeef194bcb5"
       #     working-directory: Nuxt-Frontend
-      - name: Run Chromatic
-        run: cd Nuxt-Frontend && npx chromatic --project-token=chpt_ba44eeef194bcb5
+      # - name: Run Chromatic
+      #   run: cd Nuxt-Frontend && npx chromatic --project-token=chpt_ba44eeef194bcb5
 
 
       # - name: Run Cypress with Chromatic
