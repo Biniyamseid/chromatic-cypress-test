@@ -1,0 +1,47 @@
+name: Test
+on:
+  pull_request:
+    branches:
+      - "**"
+
+jobs:
+  test:
+    name: Test
+    concurrency: test_${{ github.head_ref }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 
+
+      
+      - name: Install pnpm
+        run: cd Nuxt-Frontend && npm install -g pnpm
+
+      
+      - name: Install dependencies
+        run: cd Nuxt-Frontend && pnpm install
+
+      - name: Enable pnpm with Corepack
+        run: corepack enable pnpm
+
+      - name: Install Dependencies
+        run: cd Nuxt-Frontend && pnpm install --frozen-lockfile
+
+      - name: Build Application
+        run: cd Nuxt-Frontend && pnpm build
+
+      - name: Build Storybook
+        run: cd Nuxt-Frontend && pnpm build-storybook
+
+      - name: Run Chromatic
+        uses: chromaui/action@latest
+        with:
+          projectToken: "chpt_ba44eeef194bcb5"
+
+      - name: Run Cypress with Chromatic
+        run: ELECTRON_EXTRA_LAUNCH_ARGS=--remote-debugging-port=9222 pnpm chromatic --cypress --project-token=$CHROMATIC_PROJECT_TOKEN --exit-zero-on-changes
+        env:
+          CHROMATIC_PROJECT_TOKEN: "chpt_ba44eeef194bcb5"

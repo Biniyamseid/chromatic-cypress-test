@@ -1,0 +1,1 @@
+import{_ as s}from"./DlAUqK2U.js";import{v as o,x as r,B as e}from"./Dp5ZG7rL.js";const n={},a={class:"bg-slate-900"};function c(l,t){return o(),r("footer",a,t[0]||(t[0]=[e("div",{class:"p-3 flex justify-center text-xs"},[e("footer",{class:"landing-footer"},[e("p",null,"© 2024 Aladia. All rights reserved.")])],-1)]))}const i=s(n,[["render",c]]);export{i as _};

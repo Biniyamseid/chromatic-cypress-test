@@ -1,0 +1,1 @@
+import{_ as t}from"./DlAUqK2U.js";import{v as o,x as s,A as c}from"./Dp5ZG7rL.js";const n={},r={class:"py-3 table-cell text-left"};function _(e,a){return o(),s("div",r,[c(e.$slots,"default")])}const m=t(n,[["render",_]]);export{m as _};

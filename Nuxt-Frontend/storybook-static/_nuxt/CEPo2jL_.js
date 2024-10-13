@@ -1,0 +1,3 @@
+import{_ as n}from"./DlAUqK2U.js";import{U as c,v as m,x as l,B as p,y as u,Q as d}from"./Dp5ZG7rL.js";const x={};function _(f,o){const a=c("Landing");return m(),l(d,null,[o[0]||(o[0]=p("h1",null," Welcome Nuxt to Storybook ",-1)),u(a)],64)}const i=n(x,[["render",_]]),y={title:"Example/NuxtWelcome",component:i,tags:["autodocs"]},e={args:{}};var t,r,s;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:`{
+  args: {}
+}`,...(s=(r=e.parameters)==null?void 0:r.docs)==null?void 0:s.source}}};const W=["NuxtWelcomeStory"];export{e as NuxtWelcomeStory,W as __namedExportsOrder,y as default};
