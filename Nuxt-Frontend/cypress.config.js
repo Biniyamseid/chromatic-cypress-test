@@ -1,7 +1,7 @@
 
 import { defineConfig } from "cypress";
 // cypress.config.js
-const { defineConfig } = require("cypress");
+// const { defineConfig } = require("cypress");
 const { installPlugin } = require("@chromatic-com/cypress");
 
 
