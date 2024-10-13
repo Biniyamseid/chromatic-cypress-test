@@ -33,8 +33,8 @@ jobs:
       - name: Build Application
         run: cd Nuxt-Frontend && pnpm build
 
-      # - name: Build Storybook
-      #   run: cd Nuxt-Frontend && pnpm build-storybook
+      - name: Build Storybook
+        run: cd Nuxt-Frontend && pnpm build-storybook
 
       # - name: Run Chromatic
       #   uses: chromaui/action@latest
