@@ -20,7 +20,7 @@ jobs:
         run: cd Nuxt-Frontend && pnpm install
 
       - name: Cypress run
-        run: cd Nuxt-Frontend && pnpm exec cypress run
+        run: cd Nuxt-Frontend
 
       - uses: actions/upload-artifact@v4
         # add the line below to store screenshots only on failures
