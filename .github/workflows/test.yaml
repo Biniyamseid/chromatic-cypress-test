@@ -36,11 +36,11 @@ jobs:
       - name: Build Storybook
         run: cd Nuxt-Frontend && pnpm build-storybook
 
-      # - name: Run Chromatic
-      #   uses: chromaui/action@latest
-      #   with:
-      #     projectToken: "chpt_ba44eeef194bcb5"
-      #     working-directory: Nuxt-Frontend
+      - name: Run Chromatic
+        uses: chromaui/action@latest
+        with:
+          projectToken: "chpt_ba44eeef194bcb5"
+          working-directory: Nuxt-Frontend
       # - name: Run Chromatic
       #   run: cd Nuxt-Frontend && npx chromatic --project-token=chpt_ba44eeef194bcb5
 
