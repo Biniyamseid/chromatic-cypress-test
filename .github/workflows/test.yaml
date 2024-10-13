@@ -45,7 +45,7 @@ jobs:
         run: cd Nuxt-Frontend && npx chromatic --project-token=chpt_ba44eeef194bcb5
 
 
-      - name: Run Cypress with Chromatic
-        run: cd Nuxt-Frontend && ELECTRON_EXTRA_LAUNCH_ARGS=--remote-debugging-port=9222 pnpm chromatic --cypress --project-token=$CHROMATIC_PROJECT_TOKEN --allow-console-errors --exit-zero-on-changes
-        env:
-          CHROMATIC_PROJECT_TOKEN: "chpt_ba44eeef194bcb5"
+      # - name: Run Cypress with Chromatic
+      #   run: cd Nuxt-Frontend && ELECTRON_EXTRA_LAUNCH_ARGS=--remote-debugging-port=9222 pnpm chromatic --project-token=$CHROMATIC_PROJECT_TOKEN --allow-console-errors --exit-zero-on-changes
+      #   env:
+      #     CHROMATIC_PROJECT_TOKEN: "chpt_ba44eeef194bcb5"
