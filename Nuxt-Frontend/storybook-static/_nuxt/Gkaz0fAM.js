@@ -1,1 +1,0 @@
-import{j as o}from"./Djjdvgwa.js";const n=()=>{var s;return((s=window==null?void 0:window.__NUXT__)==null?void 0:s.config)||{}},i=n().app,l=()=>i.buildAssetsDir,b=(...s)=>o(e(),l(),...s),e=(...s)=>{const t=i.cdnURL||i.baseURL;return s.length?o(t,...s):t};globalThis.__buildAssetsURL=b,globalThis.__publicAssetsURL=e;export{b,e as p};

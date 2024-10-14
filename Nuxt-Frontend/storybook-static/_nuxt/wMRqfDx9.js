@@ -1,1 +1,0 @@
-import{_ as o}from"./DlAUqK2U.js";import{v as t,x as s,A as c}from"./Dp5ZG7rL.js";const n={},r={class:"table-cell"};function _(e,a){return t(),s("div",r,[c(e.$slots,"default")])}const m=o(n,[["render",_]]);export{m as _};

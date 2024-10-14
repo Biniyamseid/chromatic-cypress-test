@@ -1,3 +1,0 @@
-import{_ as a}from"./ClhkJfVD.js";import"./kSjqG4HC.js";import"./Dp5ZG7rL.js";import"./cUfzpFyX.js";import"./CJm9ZGec.js";import"./B4rT1Usr.js";import"./Djjdvgwa.js";import"./Gkaz0fAM.js";import"./Bxx9GC6x.js";import"./BjIoD5Uw.js";import"./DlAUqK2U.js";import"./0Pf03w35.js";const x={title:"Example/BaseHeader",component:a,tags:["autodocs"]},r={args:{}};var o,t,e;r.parameters={...r.parameters,docs:{...(o=r.parameters)==null?void 0:o.docs,source:{originalSource:`{
-  args: {}
-}`,...(e=(t=r.parameters)==null?void 0:t.docs)==null?void 0:e.source}}};const B=["BaseHeaderStory"];export{r as BaseHeaderStory,B as __namedExportsOrder,x as default};

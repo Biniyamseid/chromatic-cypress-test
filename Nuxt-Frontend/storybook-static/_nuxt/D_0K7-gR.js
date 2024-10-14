@@ -1,3 +1,0 @@
-import m from"./CJGBLHtc.js";import"./BymqxPvO.js";import"./Dp5ZG7rL.js";import"./Bxx9GC6x.js";import"./BjIoD5Uw.js";import"./DlAUqK2U.js";import"./0Pf03w35.js";import"./Djjdvgwa.js";import"./cUfzpFyX.js";import"./Gkaz0fAM.js";import"./CJm9ZGec.js";const S={title:"Example/index",component:m,tags:["autodocs"]},r={args:{}};var o,t,e;r.parameters={...r.parameters,docs:{...(o=r.parameters)==null?void 0:o.docs,source:{originalSource:`{
-  args: {}
-}`,...(e=(t=r.parameters)==null?void 0:t.docs)==null?void 0:e.source}}};const f=["indexStory"];export{f as __namedExportsOrder,S as default,r as indexStory};
