@@ -31,12 +31,12 @@ describe("Check if server is live", () => {
     cy.get(".justify-between > .relative > .flex").click();
     cy.get("#terms-checkbox").check();
     cy.get("#name").clear("A");
-    cy.get("#name").type("Bemnet Adugnaw");
+    cy.get("#name").type("Test User");
     cy.get("#surname").click();
-    cy.get("#name").clear("Bemnet Ad");
-    cy.get("#name").type("Bemnet");
-    cy.get("#surname").clear("Adugnaw");
-    cy.get("#surname").type("Adugnaw");
+    cy.get("#name").clear("Test Ad");
+    cy.get("#name").type("User");
+    cy.get("#surname").clear("User");
+    cy.get("#surname").type("User");
     cy.get(":nth-child(6) > .group > #password").clear("s");
     cy.get(":nth-child(6) > .group > #password").type("string");
     cy.get(":nth-child(7) > .group > #password").clear("s");

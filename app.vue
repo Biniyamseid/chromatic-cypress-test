@@ -47,9 +47,9 @@ const database = ref([
     surname: "User",
   },
   {
-    email: "bemnet@gmail.com",
+    email: "TestUser@gmail.com",
     password: "password456!",
-    name: "Bemnet",
+    name: "User",
     surname: "User",
   },
 ]);
