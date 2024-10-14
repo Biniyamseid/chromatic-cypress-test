@@ -14,8 +14,8 @@ const config: StorybookConfig = {
     name: '@storybook-vue/nuxt',
     options: {},
   },
-  docs: {
-    autodocs: 'tag',
-  },
+  // docs: {
+  //   autodocs: 'tag',
+  // },
 }
 export default config
